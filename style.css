@@ -17,3 +17,29 @@ header nav{
 	margin: 0 auto;
 	padding: 10px;
 }
+.hero-section{
+	display: flex;
+}
+aside>div{
+	display: flex;
+	flex: 1;
+	/* background-color: blue; */
+	
+}
+.main-content{
+	
+	flex: 5;
+	background-color: red;
+}
+.graphs{
+	display: flex;
+}
+.graphs>div{
+	flex: 1;
+	height: 200px;
+}
+.graphs>div>img{
+	width: 100%;
+	object-fit: contain;
+	height: 200px;
+}
